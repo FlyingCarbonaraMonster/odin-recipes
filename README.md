@@ -1,1 +1,1 @@
-# odin-recipes
+This websites contains link to recipes. By the end of the project, I will be able to write simple websites in HTML.
