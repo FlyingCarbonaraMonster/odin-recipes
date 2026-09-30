@@ -1,4 +1,8 @@
-h1 {
+body {
+    background-color: azure;
+}
+
+.title {
     color: burlywood;
     font-size: 32px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -6,10 +10,35 @@ h1 {
 }
 
 .list-element {
-    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    padding: 20px;
     text-align: center;
 }
 
 .list {
     list-style-type: none;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.description,
+.ingredients,
+.steps {
+    margin-left: 100px;
+}
+
+.description {
+    color:darkgoldenrod;
+}
+
+.ingredients {
+    color:rgba(238, 14, 51, 0.603);
+}
+
+.steps {
+    color: firebrick;
 }
